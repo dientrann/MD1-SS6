@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.top_content {
+  height: 200px;
+  background-color: aqua;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/balloon-sunburst-bassart-photography.jpg");
+  background-size: cover;
+}
+.body_content {
+  height: 600px;
+  display: flex;
+}
+.left_content {
+  width: 50%;
+}
+.right_content {
+  width: 50%;
+}
+div {
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.item1 {
+  height: 70%;
+  position: relative;
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/6/ZP/AF/LX/29117784/hot-air-balloon-fabric-500x500.jpg");
+  background-size: cover;
+}
+.item1 > p {
+  position: absolute;
+  bottom: 20px;
+}
+.item1 > h2 {
+  position: absolute;
+  bottom: 45px;
+}
+.item2 {
+  height: 16%;
+  position: relative;
+  background-image: url("https://c.wallhere.com/photos/b3/8a/vehicle_sky_hot_air_balloons_colorful-1729473.jpg!d");
+  background-size: cover;
+}
+.item2 > p {
+  position: absolute;
+  bottom: 10px;
+}
+.item2 > h2 {
+  position: absolute;
+  bottom: 35px;
+}
+.item3 {
+  height: 25%;
+  background-image: url("https://c.wallhere.com/photos/b3/8a/vehicle_sky_hot_air_balloons_colorful-1729473.jpg!d");
+  background-size: cover;
+}
+.item4 {
+  height: 25%;
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/6/ZP/AF/LX/29117784/hot-air-balloon-fabric-500x500.jpg");
+  background-size: cover;
+}
+.item5 {
+  height: 29%;
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/6/ZP/AF/LX/29117784/hot-air-balloon-fabric-500x500.jpg");
+  background-size: cover;
+}
+.top_content,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+  padding: 20px;
+  position: relative;
+}
+button {
+  margin-left: 20px;
+  width: calc(100% - 80px);
+  position: absolute;
+  bottom: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
